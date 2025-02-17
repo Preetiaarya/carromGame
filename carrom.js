@@ -40,7 +40,7 @@ function draw() {
 function mousePressed() {
     if (isAiming) {
         striker.launch(); // Launch the striker towards the aimed direction
-        isAiming = false; // Disable aiming mode
+        // isAiming = false; // Disable aiming mode
     }
 }
 // function mousePressed() {
